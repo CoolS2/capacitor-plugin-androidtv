@@ -1,6 +1,6 @@
 {
   "name": "capacitor-android-tv-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Android TV plugin",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -44,21 +44,21 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^7.2.0",
-    "@capacitor/core": "^7.2.0",
-    "@capacitor/docgen": "^0.3.0",
-    "@capacitor/ios": "^7.2.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/docgen": "^0.3.1",
+    "@capacitor/ios": "^8.0.0",
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
-    "@types/node": "^22.15.24",
-    "eslint": "^9.27.0",
-    "prettier": "~3.5.3",
-    "prettier-plugin-java": "~2.6.7",
-    "rimraf": "^6.0.1",
-    "rollup": "^4.41.1",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "prettier": "~3.7.4",
+    "prettier-plugin-java": "~2.7.7",
+    "rimraf": "^6.1.2",
+    "rollup": "^4.54.0",
     "swiftlint": "^2.0.0",
-    "typescript": "~5.8.3"
+    "typescript": "~5.9.3"
   },
   "peerDependencies": {
     "@capacitor/core": "^6.0.0"

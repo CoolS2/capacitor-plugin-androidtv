@@ -24,6 +24,9 @@ npx cap sync
 
 ```typescript
 isAndroidTv() => Promise<boolean>
+
+import { AndroidTv } from 'capacitor-android-tv-plugin';
+await AndroidTv.isAndroidTv();
 ```
 
 **Returns:** <code>Promise&lt;boolean&gt;</code>
